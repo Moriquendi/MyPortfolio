@@ -1,38 +1,40 @@
-body {
+	body {
 	margin: 0 0 0 0;
 	color: rgb(245, 245, 245);
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 	height:100%;
-	background-color: rgb(246, 240, 235);
+	background-color: black;
+	min-width: 1360px;
+	width: 100%;
 }
 
 html {
 	height:100%;
 }
 
-#xyz {
+a {
+	color: #8fde8f;
+}
+
+#bgImg {
 	width:100%;
 	height:100%;
 	background-size: 100%;
 	background-image: url('picturebg4.jpg');
 	background-repeat: no-repeat;
 	background-position: right top;
-	position: absolute;
+min-height: 800px;
+/* 	position: absolute; */
 	z-index: -1;
 }
 
 #headerBg {
-/* 	font-family: Verdana; */
 	font-family: 'Futura';
 	text-align: left;
 	background-size: 100%;
 	min-height: 100%;
 	height:100%;
 	width: 100%;
-	
-	
-
-	
 }
 
 
@@ -45,7 +47,6 @@ html {
 }
 
 #headerContent {
-/* 	background-color: red; */
 	position: absolute;
 	width:40%;
 	margin-left: 22%;
@@ -75,7 +76,9 @@ html {
 #aboutHeader {
 	background-color: rgb(255, 192, 0);
 	color: rgb(46,44,42);
-	padding: 40px;
+	padding: 13%;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	margin: 0;
 	font-family: "Futura";
 	font-size: 1.1em;
@@ -90,7 +93,6 @@ html {
 	float: left;
 	text-align: left;
 	font-size: 1.4em;
-/* 	background-color: blue; */
 }
 
 img {
@@ -98,8 +100,9 @@ img {
 }
 
 .projectSection {
-	padding: 13%;
-	padding-top: 6%;
+	padding: 15%;
+	padding-top: 8%;
+	padding-bottom: 8%;
 	color: white;
 	min-height: 100%;
 	height: 380px;
@@ -111,35 +114,53 @@ img {
 
 
 .secondProjectBlock {
-	background-color: rgb(255, 131, 0);
+	background-color: rgb(0, 203, 112);  
+
 }
 
 .thirdProjectBlock {
-	background-color: rgb(0, 203, 112);
+	background-color: rgb(173, 89, 114);
+/* 	background-color: rgb(255, 137, 101); */
 }
 
 .fourthProjectBlock {
-	background-color: rgb(127, 180, 0);
+	background-color: rgb(0, 163, 166);
+
 }
 
 .fifthProjectBlock {
-/* 	color: rgb(46,44,42); */
-	background-color: rgb(0, 163, 166);
+	background-color: rgb(0, 203, 112);  
+
 }
 
+.sixthProjectBlock {
+	background-color: rgb(255, 131, 0);
+}
+
+.seventhProjectBlock {
+	background-color: rgb(210, 0, 53);	
+}
+/*
+
+	background-color: rgb(210, 0, 53);
+	background-color: rgb(255, 131, 0);
+	background-color: rgb(255, 137, 101);
+	background-color: rgb(251, 154, 147);
+	background-color: rgb(0, 203, 112);  
+	background-color: rgb(0, 163, 166);
+*/
 h1 {
 /* 	color: rgb(222,78, 64); */
 }
 
 #footer {
-	margin: 0;
+/* 	margin: 0; */
 	padding-top: 50px;
 	text-align: center;
 	width:100%;
 	height: 150px;
-	background-color: rgb(255, 186, 0);
-/* 	rgb(46,44,42); */
-	font-size: 0.9em;
+	background-color: rgb(46,44,42);
+	font-size: 1em;
 }
 
 /*
