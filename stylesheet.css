@@ -127,16 +127,22 @@ img {
 }
 
 .fifthProjectBlock {
+	background-color: rgb(255, 192, 0);
+	color: rgb(46,44,42);
+}
+
+.sixthProjectBlock {
 	background-color: rgb(0, 203, 112);  
 
 }
 
-.sixthProjectBlock {
+.seventhProjectBlock {
 	background-color: rgb(255, 131, 0);
+	
 }
 
-.seventhProjectBlock {
-	background-color: rgb(210, 0, 53);	
+.eighthProjectBlock {
+	background-color: rgb(210, 0, 53);
 }
 
 #footer {
